@@ -1,3 +1,31 @@
+html {
+    font-size: 20px;  
+    font-family: 'Times New Roman', Times, serif
+}
+
 body {
-    padding: center;
+    text-align: left;
+    padding: 20px ;
+
+    background-color: rgb(94, 167, 117);
+}
+
+header {
+    display: block;
+    border: 5px solid rgb(0, 94, 78);
+}
+
+.sticky {
+    position: sticky;
+    top: -1px;
+    z-index: var(--z-index-main-header);
+}
+
+.head-text {
+    text-align: left;
+    margin: auto auto auto 20px;
+}
+
+.navigation li {
+    display: inline-block;
 }
