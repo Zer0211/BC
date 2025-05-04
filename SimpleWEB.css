@@ -1,31 +1,55 @@
 html {
-    font-size: 20px;  
+    font-size: 130%;  
     font-family: 'Times New Roman', Times, serif
 }
 
 body {
     text-align: left;
-    padding: 20px ;
+    padding: 0.5% ;
 
     background-color: rgb(94, 167, 117);
-}
-
-header {
-    display: block;
-    border: 5px solid rgb(0, 94, 78);
 }
 
 .sticky {
     position: sticky;
     top: -1px;
-    z-index: var(--z-index-main-header);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+header {
+    display: block;
+    border: 5px solid rgb(0, 94, 78);
+    background-color: goldenrod;
+    
 }
 
 .head-text {
-    text-align: left;
-    margin: auto auto auto 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1em;
+}
+
+.logo {
+    margin-left: 20px;
+    color: #5c1586;
+    font-size: 120%;
 }
 
 .navigation li {
-    display: inline-block;
+    display: inline-flex;
+    padding-top: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.top-text {
+    color: brown;
+}
+
+.content-text {
+    color:darkslateblue;
 }
